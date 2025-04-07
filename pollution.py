@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load dataset
-file_path = "C:/Users/Student/OneDrive/Desktop/chota don/water_pollution_disease.csv"
+file_path = "water_pollution_disease.csv"
 df = pd.read_csv(file_path)
 
 # Define target and features
